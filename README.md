@@ -11,7 +11,9 @@ SciPy: For the solve_ivp differential equation solver.
 Matplotlib: For creating and managing the 2D plot and animation.
 External Software (Optional: For Saving Video)
 FFmpeg: This is a non-Python utility that Matplotlib requires to write video files (like .mp4). It must be downloaded and added to your system's PATH.
-# If you do not wish to save the animation and want to bypass the FFmpeg requirement, simply comment out or delete the ani.save(...) line in the script. The plt.show() command will still display the live animation.
+
+
+If you do not wish to save the animation and want to bypass the FFmpeg requirement, simply comment out or delete the ani.save(...) line in the script. The plt.show() command will still display the live animation.
 
 # Customization & Renders
 You can easily generate your own unique animations by modifying the initial parameters at the top of the script. The system's behavior is highly sensitive to these values. 
