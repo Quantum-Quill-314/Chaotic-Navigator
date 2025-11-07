@@ -1,15 +1,23 @@
 # Chaotic-Navigator
 What This Project Does:
 This project models and visualizes the motion of a double pendulum, a classic, deterministic system that exhibits profound chaotic behavior.It translates the underlying physics into a compelling visual animation. The script performs a full, end-to-end simulation by:
+
 Defining the System: Using Lagrangian mechanics ($L = T - U$), the script implements the two coupled, second-order ordinary differential equations (ODEs) that govern the pendulum's motion.
+
 Solving Numerically: It leverages the SciPy library (solve_ivp) to numerically integrate this complex system of ODEs, calculating the pendulum's angular position and velocity at thousands of discrete time steps.
+
 Visualizing the Chaos: Using Matplotlib, it generates a dynamic animation of the pendulum swinging. It plots both the moving arms and the intricate, never-repeating "ghost" trail of the second bob, which clearly illustrates the system's chaotic nature.
 # Requirements to Run:
 Python 3.7+
+
 NumPy: For high-performance array operations and numerical functions.
+
 SciPy: For the solve_ivp differential equation solver.
+
 Matplotlib: For creating and managing the 2D plot and animation.
+
 External Software (Optional: For Saving Video)
+
 FFmpeg: This is a non-Python utility that Matplotlib requires to write video files (like .mp4). It must be downloaded and added to your system's PATH.
 
 
