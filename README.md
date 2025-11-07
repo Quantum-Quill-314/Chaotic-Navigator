@@ -16,4 +16,5 @@ FFmpeg: This is a non-Python utility that Matplotlib requires to write video fil
 # Customization & Renders
 You can easily generate your own unique animations by modifying the initial parameters at the top of the script. The system's behavior is highly sensitive to these values. 
 <img width="931" height="189" alt="image" src="https://github.com/user-attachments/assets/96b0eff3-6b5e-4588-a935-e2a133665914" />
+
 By changing the lengths (L1, L2), masses (M1, M2), or (most effectively) the starting angles and velocities (th1, th2, W1, W2), you will produce a completely different chaotic path.
